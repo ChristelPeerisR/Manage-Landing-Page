@@ -1,0 +1,25 @@
+.landing{
+    display: flex;
+    position: relative;
+}
+
+
+.every{
+    width: 50%;
+}
+.intro{
+    width:50%
+}
+.every h1{
+    padding-bottom: 45px;
+    color: var(--dark-blue);
+    font-size: 45px;
+}
+
+.every h3{
+    color: var(--dark-grayish-blue);
+    font-weight: lighter;
+    padding-bottom: 45px;
+    line-height: 25px;
+}
+

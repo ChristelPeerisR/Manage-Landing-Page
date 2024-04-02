@@ -1,0 +1,68 @@
+.about {
+    display: flex;
+    padding: 120px 0px 90px 0px;
+    position: relative;
+}
+
+.about:before{
+    content: '';
+    background-image: url(images/bg-tablet-pattern.svg);
+    background-size: cover;
+    background-position: left;
+    width: 60rem;
+    height: 60rem;
+    position: absolute;
+    bottom: -30rem;
+    left: -35rem;
+    z-index: -1;
+}
+
+.what {
+    width: 50%;
+}
+
+.what h1 {
+    padding-bottom: 45px;
+    color: var(--dark-blue);
+    font-size: 40px;
+}
+
+.what h3 {
+    color: var(--dark-grayish-blue);
+    font-weight: lighter;
+    padding-bottom: 45px;
+    line-height: 25px;
+}
+
+.track {
+    width: 50%;
+}
+
+.cum{
+    display: inline;
+}
+
+.num{
+    display: grid;
+    grid-template-columns: 15% 85%;
+}
+.num span{
+    background: var(--bright-red);
+    color: #fff;
+    padding: 10px 22px;
+    border-radius: 25px;
+}
+
+.num h3{
+    padding: 10px 0px 20px 0px; 
+    color: var(--dark-blue);
+}
+
+.sum p {
+    color: var(--dark-grayish-blue);
+    line-height: 25px;
+    font-weight: lighter;
+    justify-content: space-between;
+    padding-left: 95px;
+    padding-bottom: 30px;
+}
